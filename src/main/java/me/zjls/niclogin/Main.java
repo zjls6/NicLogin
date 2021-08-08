@@ -42,10 +42,10 @@ public final class Main extends JavaPlugin {
             sql.connect();
         } catch (SQLException e) {
             e.printStackTrace();
-            getLogger().info(Color.str("&c数据库连接失败"));
+            getLogger().info(Color.str("&c数据库连接失败!"));
         }
         if (sql.isConnected()) {
-            getLogger().info(Color.str("&a数据库连接成功"));
+            getLogger().info(Color.str("&a数据库连接成功!"));
         }
 
         this.getServer().getMessenger().registerOutgoingPluginChannel(this, "BungeeCord");
