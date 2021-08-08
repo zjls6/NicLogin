@@ -1,0 +1,9 @@
+name: NicLogin
+version: ${project.version}
+main: me.zjls.niclogin.Main
+api-version: 1.16
+authors: [ zjls ]
+description: Nicholas登录插件
+commands:
+  login:
+    aliases: [l]
